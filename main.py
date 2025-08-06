@@ -1,4 +1,7 @@
-print("NOP - Gerador de Senha Automatica");
-print("Voce pode escolher o tamanho da senha que deseja gerar,\n "
-      "se ela contera numeros, letras e caracteres especiais.");
-print("******************************************************")
+print("NOP - Gerador de Senha Automatica")
+print("Voce pode escolher o tamanho da senha que deseja gerar, \nse ela contera numeros, letras e caracteres especiais.")
+print("******************************************************\n")
+tam = input("Quantos caracteres deseja que sua senha tenha?")
+num = input('Deseja ter numeros em sua senha? (Digite s para sim ou n para não)')
+let = input('Deseja ter letras em sua senha? (Digite s para sim ou n para não)')
+esp = input('Deseja ter caracteres especiais em sua senha? (Digite s para sim ou n para não)')
